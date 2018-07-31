@@ -1,0 +1,29 @@
+{
+	"name": "mazecode/wp-dd",
+	"description": "Dump and die function as Laravel dd()",
+	"type": "wordpress-plugin",
+	"authors": [{
+		"name": "Diego Feliú",
+		"email": "diego.feliud@gmail.com",
+		"homepage": "https://github.com/mazecode"
+	}],
+	"version": "1.0.0",
+	"keywords": [
+		"Wordpress", "Laravel", "dd", "Dump", "Die"
+	],
+	"license": "GPL-2.0-or-later",
+	"repositories": [
+		{
+			"type": "github",
+			"url": "https://github.com/mazecode/wp-dd.git"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"MazeCode\\": "src/"
+		}
+	},
+	"require": {
+		"symfony/var-dumper": "3.1.*"
+	}
+}
