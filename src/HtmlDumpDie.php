@@ -43,5 +43,3 @@ class HtmlDumpDie extends HtmlDumper
 		$this->setDisplayOptions($this->displayOptions);
     }
 }
-
-dump(new HtmlDumpDie());
